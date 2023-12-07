@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+   
+    <title>ejomplo Dom con javaScript</title>
+    <style>
+        .azul{
+
+            color: blue;
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <h1 id="cabecero" class="azul">Ejemplo Dom con javaScript</h1>
+    <p id="parrafo" class="azul">saludos!</p>
+    <p id="parrafo2" class="azul">otro parrafo</p>
+
+    <script>
+      /*  let cabecero= document.getElementById('cabecero');
+        console.log(`valor cabecero ${cabecero.innerHTML}`)
+        let parrafo = document.getElementById('parrafo');
+        console.log(parrafo.innerHTML);
+        console.log('saludos con javaScript')
+        parrafo.innerHTML= 'nuevo valor del parrafo';
+        cabecero.innerHTML='nuevo cabecero';
+        */
+
+        /*
+
+        //cuenta los numeors de tipo de etiqueta que s ele coloque 
+        let parrafos = document.getElementsByTagName('p');
+        console.log(`no. parrafos ${parrafos.length}`);
+
+        for (let i = 0; i < parrafos.length; i++) {
+            console.log(parrafos[i].innerHTML);
+            
+        }*/
+
+        let parrafos = document.querySelectorAll(p.azul);
+        console.log(`no. parrafos ${parrafos.length}`);
+
+       /* for (let i = 0; i < parrafos.length; i++) {
+            console.log(parrafos[i].innerHTML);
+            
+        }.*/
+
+        for (const iterator of parrafos) {
+            console.log(`${iterator.innerHTML}`)
+    
+}
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
