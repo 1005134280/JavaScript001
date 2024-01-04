@@ -1,0 +1,13 @@
+
+h1{
+    color: #e63946;
+    text-align: center;
+}
+p{
+    color: white;
+    background-color: red;
+    padding: 15px;
+    border: 10px solid blue;
+    margin: auto 50 px;
+    text-align: center;
+}

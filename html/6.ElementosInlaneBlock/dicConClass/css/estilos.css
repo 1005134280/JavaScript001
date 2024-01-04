@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Este se declara de este modo por que se tiene un Id y no class
+y solo se puede utilizar en un componente*/
+#tituolo_principal{
+    color: #f72585;
+    text-align: center;
+    margin: 15px;
+}
+.titulo{
+    color: #f72585;
+}
+h2{
+    color: #3f37c9;
+}
+p{
+    color: #457b9d;
+}
+.tarjeta{
+    border: 10px solid #560bad;
+    background-color: #f1faee;
+    text-align: center;
+    margin: 15px 100px;
+    padding: 15px;
+}                                                
+.titulo{
+color: #3f3771
+
+}
