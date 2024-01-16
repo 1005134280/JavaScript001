@@ -1,0 +1,21 @@
+h1{
+    text-emphasis: center;
+}
+
+.rojo{
+    border: 10px solid firebrick;
+    /*background-color: firebrick;*/
+}
+
+.rosa{
+    /*Utiliza una linea a pedazos subrayada con lineas*/
+    border: 10px dashed rgb(45, 118, 63);
+    background-color: hotpink;
+}
+.amarillo{
+    border:25px double #ffd700;
+}
+/*Pone la ralla punteada*/
+.verde{
+    border: 10px dotted hsl(174, 72%, 56%);
+}

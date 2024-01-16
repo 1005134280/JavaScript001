@@ -1,0 +1,9 @@
+h1, div, p, span{
+    border: 3px solid blueviolet;
+    text-align: center;
+    color: cornflowerblue;
+    padding: 10px;
+    /*el display block hace que se muestren en lineas diferentes*/
+    /*si se utiliza en line pues se muestra en la misma linea */
+    display: block;
+}

@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+div{ 
+    /*lo que hace es que se quede de manera fija en la pantalla asi se baje
+     no se mueve y se púede montar por encima de otros elementos */
+    position: fixed;  
+    width: 50%;
+    border: 3px solid firebrick;
+    /*Hace que cuando se organice la pantalla el se centre de manera automatica*/
+    margin: auto;
+} 

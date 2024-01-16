@@ -1,0 +1,16 @@
+body{
+    background-color: dodgerblue;
+    color: cornsilk;
+    background-image: url("/5.ManejoDeFondos/img/fondo\ \(1\).png");
+    /*Lo que hace esto es que solo se repita la imagen en el eje x-repect*/
+    background-repeat: no-repeat;
+    background-position: right top;
+    /* asi se mueve la imagen para donde se mueva la panatlla, quieta fixed*/
+    background-attachment: scroll;
+    
+}
+h1{
+    text-align: center;
+    background-color: dodgerblue;
+
+}

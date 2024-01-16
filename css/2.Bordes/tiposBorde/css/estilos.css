@@ -1,0 +1,48 @@
+h1{
+    text-emphasis: center;
+}
+/*Este es un borde punteado*/
+.punteado{
+    border-style: dotted;
+}
+
+/*Este es un borde discontinuo*/
+
+.discontinuo{
+    border-style: dashed;
+}
+
+/* Borde solido la etiqueta de border se dive en tre y por espacios primero el tamaño despues el estilo
+y por ultimo el color */
+.solid{
+    border: 10px solid red;
+}
+
+.doble{
+    border-style: double;
+}
+/* El borde con surco es con alto grosor o con contrate*/
+.surco{
+    border: 25px groove;
+}
+/*Es paracido con el surco pero es como con las lineas de color bolteada y los siguientes son parecidos
++*/
+.cresta{
+    border: 25px ridge;
+}
+
+.recuadro{
+    border: 10px inset;
+}
+
+.outset{
+    border: 10px outset;
+}
+
+.sin_borde{
+    border: none;
+}
+/* lo que significa que primero modifica el lado de arriba, derecho, abajo, izquierdo*/
+.mixto{
+    border-style: dotted solid dashed double;
+}

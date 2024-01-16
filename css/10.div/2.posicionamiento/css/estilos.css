@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+div{
+    /*la posicion si la colocamos en static lo que hace es que no importa el top o left*/
+    /* a diferencia del tipo relative */
+    position: relative;
+    top: 100px;
+    left: 50px;
+    width: 50%;
+    border: 3px solid firebrick;
+    /*Hace que cuando se organice la pantalla el se centre de manera automatica*/
+    margin: auto;
+} 

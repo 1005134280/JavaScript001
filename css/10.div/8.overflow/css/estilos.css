@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+div.contenedor{
+    border: 3px dashed greenyellow;
+    width: 30%;
+    height: 100px;
+    margin: auto;
+  /*  overflow: visible; esto viene por default*/
+  /*hidden hace que el texto que se sale del div se corte*/
+  /*scroll o auto hace que paresca una barra de subir y bajar para visualizar le texto*/
+  overflow: scroll;
+}

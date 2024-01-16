@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    color: #e63946;
+}
+/*a los unicos que se le puede agregar un color es a borde*/
+/* no al pading ni la margen esos de color transparente*/
+div{
+    padding: 10px;
+    border: 15px solid #457b9d;
+    margin: 9px;
+    background-color: #f1faee;
+    /*siq quiero que el tamaño se ajuste a mi pantalla debo colorle el max*/
+    max-width: 300px;
+    /* el ouline esta entre el margen y el borde , esta como en el centro*/
+    /*se le pueden aplicar cualquier bordo de los que ya se bieron en bordes*/
+    outline: 10px solid #a8dadc;
+    /*Da un espacio entre el borde y despues el outline*/
+    /*solo se puede agregar un valor no se puede arriba derecha izquierda y abajo*/
+    outline-offset: 10px;
+    box-sizing: border-box;
+}    

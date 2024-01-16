@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+
+div{ 
+   /*Se mantiene en la pantalla mientras asi se desplace  y en la misma posicion si no se mueve la pantalla*/
+    position: sticky;  
+    bottom: 0;
+    right: 0;  
+    border: 3px solid firebrick;
+ 
+} 

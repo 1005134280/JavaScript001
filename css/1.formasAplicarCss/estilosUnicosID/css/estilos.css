@@ -1,0 +1,17 @@
+/*ESTE ES EL SELECTOR UNIVERSAL*/
+*{
+    background-color: aqua;
+    color: red;
+}
+#titulo{
+    color: black;
+    text-align: center;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.texto_grade{
+    font-size: 25px;
+}

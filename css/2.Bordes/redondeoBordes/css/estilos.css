@@ -1,0 +1,11 @@
+
+.solid{
+    border: 10px solid red;
+    border-width: 10px;
+    border-radius: 20px;
+   
+}
+.redondeado{
+    border: 5px solid blueviolet;
+    border-radius: 20px 0px 10px 0px;
+}

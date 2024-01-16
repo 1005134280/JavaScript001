@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    color: #e63946;
+}
+/*a los unicos que se le puede agregar un color es a borde*/
+/* no al pading ni la margen esos de color transparente*/
+div{
+    padding: 10px;
+    border: 15px solid #457b9d;
+    /* esto ayuda que se centre ya que esta en la parte izquierda y derecha */
+   /* margin: 10px auto;*/
+   margin: 100px;
+    background-color: #f1faee;   
+    max-width: 300px; 
+    box-sizing: border-box;
+}    
+p.interno{
+    /*lo que hace es que se herede  del padre */
+    margin-left: inherit;
+}

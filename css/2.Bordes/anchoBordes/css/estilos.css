@@ -1,0 +1,52 @@
+h1{
+    text-emphasis: center;
+}
+/*Este es un borde punteado*/
+.punteado{
+    border-style: dotted;
+    border-width: 10px 5px 3px 2px;
+    border-color: crimson hotpink gold lime;
+}
+
+/* thin hace que el borde sea mas pequeño-mediano y thick y np se necesita aplicar pixeles*/
+
+.discontinuo{
+    border-style: dashed;
+    border-width: thick/*medium,thick*/;
+    border-color: hsla(130, 100%, 50%, 0.406);
+}
+
+
+.solid{
+    border: 10px solid red;
+    border-width: 10px 5px 2px;/* lod valores se aplican igual la unica diferencia es que es de la derecha se aplica a ala izquerda*/
+}
+
+.doble{
+    border:5px double blueviolet;
+    border-width: 20px 5px /* el primero se aplica para parte suoerior y inferior y dercho es igual al izquierdo*/;
+}
+
+.surco{
+    border: 25px groove;
+}
+
+.cresta{
+    border: 25px ridge;
+}
+
+.recuadro{
+    border: 10px inset;
+}
+
+.outset{
+    border: 10px outset;
+}
+
+.sin_borde{
+    border: none;
+}
+
+.mixto{
+    border-style: dotted solid dashed double;
+}
